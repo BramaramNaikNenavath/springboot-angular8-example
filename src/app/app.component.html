@@ -1,0 +1,19 @@
+
+<app-header></app-header>
+<div class="container">
+  <br>
+  <h2 style="text-align: center;">{{title}}</h2>
+  <hr>  
+  <div class="card">
+    <div class="card-body">
+  <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+<div id="footerbar" *ngIf="isLoggedIn">
+<!-- <footer class="footer">
+  <div class="container">
+      <span>All Rights Reserved 2020</span>
+  </div>
+</footer> -->
+</div>
